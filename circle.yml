@@ -3,3 +3,7 @@ deployment:
     branch: master
       heroku:
 	appname: circleciapp
+
+	hosts: 
+
+	example.com: 45.32.247.7
