@@ -1,7 +1,5 @@
 deployment:
-  prod:
-    branch: master
-
-	hosts: 
-
-	example.com: 45.32.247.7
+prod:
+branch: master
+hosts: 
+example.com: 45.32.247.7
