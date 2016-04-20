@@ -1,9 +1,8 @@
 test:
-    override:
-            - bundle exec rake test
-
-	    deployment:
-	      push_to_server:
-	          branch: master
-		      commands:
-		            - rsync -avz _site/ 45.32.247.7:/var/www/vultr
+override:
+- bundle exec rake test
+deployment:
+push_to_server:
+branch: master
+commands:
+- rsync -avz _site/ 45.32.247.7:/var/www/vultr
